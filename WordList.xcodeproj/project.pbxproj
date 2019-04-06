@@ -14,6 +14,9 @@
 		08C3A9D52250BC7800F334C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C3A9D32250BC7800F334C5 /* LaunchScreen.storyboard */; };
 		08C3A9E02250BC7800F334C5 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3A9DF2250BC7800F334C5 /* WordListTests.swift */; };
 		08C3A9EB2250BC7800F334C5 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3A9EA2250BC7800F334C5 /* WordListUITests.swift */; };
+		08C3A9FC2250BDE300F334C5 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3A9F92250BDE300F334C5 /* word_blank.png */; };
+		08C3A9FD2250BDE300F334C5 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3A9FA2250BDE300F334C5 /* fin.png */; };
+		08C3A9FE2250BDE300F334C5 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C3A9FB2250BDE300F334C5 /* title_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		08C3A9E62250BC7800F334C5 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C3A9EA2250BC7800F334C5 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		08C3A9EC2250BC7800F334C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C3A9F92250BDE300F334C5 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		08C3A9FA2250BDE300F334C5 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		08C3A9FB2250BDE300F334C5 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 				08C3A9CA2250BC7700F334C5 /* AppDelegate.swift */,
 				08C3A9CC2250BC7700F334C5 /* ViewController.swift */,
 				08C3A9CE2250BC7700F334C5 /* Main.storyboard */,
+				08C3A9F82250BDE300F334C5 /* WordList素材 */,
 				08C3A9D12250BC7800F334C5 /* Assets.xcassets */,
 				08C3A9D32250BC7800F334C5 /* LaunchScreen.storyboard */,
 				08C3A9D62250BC7800F334C5 /* Info.plist */,
@@ -123,6 +130,16 @@
 				08C3A9EC2250BC7800F334C5 /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		08C3A9F82250BDE300F334C5 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				08C3A9F92250BDE300F334C5 /* word_blank.png */,
+				08C3A9FA2250BDE300F334C5 /* fin.png */,
+				08C3A9FB2250BDE300F334C5 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C3A9FC2250BDE300F334C5 /* word_blank.png in Resources */,
+				08C3A9FE2250BDE300F334C5 /* title_logo.png in Resources */,
 				08C3A9D52250BC7800F334C5 /* LaunchScreen.storyboard in Resources */,
 				08C3A9D22250BC7800F334C5 /* Assets.xcassets in Resources */,
+				08C3A9FD2250BDE300F334C5 /* fin.png in Resources */,
 				08C3A9D02250BC7700F334C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
